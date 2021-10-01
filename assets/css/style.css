@@ -1,0 +1,31 @@
+.navbar a{
+text-transform: capitalize;
+color: #fff !important;
+font-size: 18px;
+margin-left: 20px;
+
+}
+.navbar .icon{
+    color: #fff;
+    border-right:1px solid rgba(255,255,255,.1) ;
+    font-size: 30px;
+    padding-right: 50px;
+
+}
+.btn{
+    padding-left: 20px;
+   
+}
+.navbar .icon::after{
+    content: '2';
+    font-size: 15px;
+    text-align:center ;
+    background: #717fe0;
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    right: 120px;
+    width: 17px;
+    line-height: 17px;
+    height: 17px;
+}
